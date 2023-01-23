@@ -87,6 +87,12 @@ a {
 
 .rust-link {
     color: white;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.rust-link:hover {
+    color: #f74c00;
 }
 
 .more-photos{
